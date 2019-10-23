@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ChangeCityButton = props => {
-  return <button>Change City</button>;
+const ChangeCityButton = ({ ChangeCity, ...props}) => {
+  return <button>{ChangeCity}</button>;
 };
 
 export default ChangeCityButton;
